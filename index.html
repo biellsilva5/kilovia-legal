@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kilovia — Política de Privacidade e Termos de Uso</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
   <style>
     :root {
       --bg: #0F1013;
@@ -18,11 +21,13 @@
       --muted: #9CA3AF;
       --success: #22C55E;
     }
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
+
     body {
       background-color: var(--bg);
       color: var(--text);
@@ -30,6 +35,7 @@
       line-height: 1.6;
       padding: 0;
     }
+
     header {
       background-color: rgba(22, 23, 27, 0.85);
       backdrop-filter: blur(12px);
@@ -39,6 +45,7 @@
       z-index: 100;
       padding: 1rem 1.5rem;
     }
+
     .header-container {
       max-width: 900px;
       margin: 0 auto;
@@ -46,6 +53,7 @@
       align-items: center;
       justify-content: space-between;
     }
+
     .logo {
       display: flex;
       align-items: center;
@@ -56,9 +64,11 @@
       font-size: 1.35rem;
       letter-spacing: -0.02em;
     }
+
     .logo-dot {
       color: var(--primary);
     }
+
     .nav-tabs {
       display: flex;
       gap: 0.5rem;
@@ -67,6 +77,7 @@
       border-radius: 9999px;
       border: 1px solid var(--border);
     }
+
     .nav-btn {
       background: transparent;
       border: none;
@@ -78,15 +89,18 @@
       cursor: pointer;
       transition: all 0.2s ease;
     }
+
     .nav-btn.active {
       background: var(--primary);
       color: #ffffff;
     }
+
     main {
       max-width: 900px;
       margin: 2.5rem auto 5rem;
       padding: 0 1.5rem;
     }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -100,6 +114,7 @@
       font-weight: 600;
       margin-bottom: 1.25rem;
     }
+
     h1 {
       font-size: 2.2rem;
       font-weight: 800;
@@ -107,6 +122,7 @@
       letter-spacing: -0.03em;
       margin-bottom: 0.5rem;
     }
+
     .meta {
       color: var(--muted);
       font-size: 0.875rem;
@@ -114,17 +130,28 @@
       padding-bottom: 1.5rem;
       border-bottom: 1px solid var(--border);
     }
+
     .content-section {
       display: none;
     }
+
     .content-section.active {
       display: block;
       animation: fadeIn 0.25s ease-in;
     }
+
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(6px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+
     h2 {
       font-size: 1.35rem;
       font-weight: 700;
@@ -133,6 +160,7 @@
       margin-bottom: 0.75rem;
       letter-spacing: -0.01em;
     }
+
     h3 {
       font-size: 1.05rem;
       font-weight: 600;
@@ -140,20 +168,25 @@
       margin-top: 1.25rem;
       margin-bottom: 0.5rem;
     }
+
     p {
       margin-bottom: 1rem;
       color: #D1D5DB;
     }
+
     ul {
       margin: 0.5rem 0 1.25rem 1.5rem;
       color: #D1D5DB;
     }
+
     li {
       margin-bottom: 0.4rem;
     }
+
     strong {
       color: #FFFFFF;
     }
+
     .card-highlight {
       background: var(--card);
       border: 1px solid var(--border);
@@ -162,13 +195,16 @@
       padding: 1.25rem 1.5rem;
       margin: 1.5rem 0;
     }
+
     a {
       color: var(--primary);
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     footer {
       border-top: 1px solid var(--border);
       padding: 2.5rem 1.5rem;
@@ -178,6 +214,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -200,36 +237,52 @@
       <div class="meta">Última atualização: 12 de novembro de 2026 • Versão do App: 1.0.0 (MVP)</div>
 
       <div class="card-highlight">
-        <strong>Resumo em uma frase:</strong> O Kilovia salva seus abastecimentos, veículos, despesas e receitas <strong>exclusivamente na memória local do seu aparelho</strong>. Não temos servidores armazenando seus dados veiculares nem comercializamos seus dados com anunciantes.
+        <strong>Resumo em uma frase:</strong> O Kilovia salva seus abastecimentos, veículos, despesas e receitas
+        <strong>exclusivamente na memória local do seu aparelho</strong>. Não temos servidores armazenando seus dados
+        veiculares nem comercializamos seus dados com anunciantes.
       </div>
 
       <h2>1. Princípio Fundamental: Arquitetura Offline-First</h2>
-      <p>O <strong>Kilovia</strong> foi concebido para ser uma ferramenta de controle veicular independente e privativa:</p>
+      <p>O <strong>Kilovia</strong> foi concebido para ser uma ferramenta de controle veicular independente e privativa:
+      </p>
       <ul>
-        <li><strong>Seus registros são exclusivamente seus:</strong> Hodômetro, combustível, custos de peças e lucros por corrida são salvos localmente no banco de dados SQLite do seu celular.</li>
-        <li><strong>Sem cadastro obrigatório:</strong> O app é 100% utilizável sem necessidade de informar e-mail, senha ou realizar login social.</li>
-        <li><strong>Sem nuvem no MVP:</strong> Na versão atual (1.0.0), nenhum dado do seu veículo é enviado para servidores externos.</li>
+        <li><strong>Seus registros são exclusivamente seus:</strong> Hodômetro, combustível, custos de peças e lucros
+          por corrida são salvos localmente no banco de dados SQLite do seu celular.</li>
+        <li><strong>Sem cadastro obrigatório:</strong> O app é 100% utilizável sem necessidade de informar e-mail, senha
+          ou realizar login social.</li>
+        <li><strong>Sem nuvem no MVP:</strong> Na versão atual (1.0.0), nenhum dado do seu veículo é enviado para
+          servidores externos.</li>
       </ul>
 
       <h2>2. Serviços de Infraestrutura e Terceiros</h2>
-      <p>Para garantir estabilidade técnica e entrega de alertas úteis, o app integra serviços técnicos estritamente necessários:</p>
+      <p>Para garantir estabilidade técnica e entrega de alertas úteis, o app integra serviços técnicos estritamente
+        necessários:</p>
 
       <h3>A. Notificações Push (OneSignal e Firebase Cloud Messaging)</h3>
-      <p>Utilizados para enviar avisos de revisão e lembretes veiculares configurados por você. Tratamos apenas o token de notificação e o identificador do aparelho. Você pode desativar as notificações a qualquer momento no menu <em>Meu Perfil</em>.</p>
+      <p>Utilizados para enviar avisos de revisão e lembretes veiculares configurados por você. Tratamos apenas o token
+        de notificação e o identificador do aparelho. Você pode desativar as notificações a qualquer momento no menu
+        <em>Meu Perfil</em>.
+      </p>
 
       <h3>B. Diagnósticos e Analítica de Produto (PostHog)</h3>
-      <p>Coletamos dados anônimos de telemetria e navegação técnica (ex.: se uma tela travou ou se um cálculo gerou erro) associados a um ID aleatório de instalação para que possamos corrigir bugs e aprimorar o aplicativo. Nenhum valor em Reais, quilometragem ou placa é coletado.</p>
+      <p>Coletamos dados anônimos de telemetria e navegação técnica (ex.: se uma tela travou ou se um cálculo gerou
+        erro) associados a um ID aleatório de instalação para que possamos corrigir bugs e aprimorar o aplicativo.
+        Nenhum valor em Reais, quilometragem ou placa é coletado.</p>
 
       <h2>3. Seus Direitos (LGPD) e Exclusão de Dados</h2>
       <p>Conforme previsto na Lei Geral de Proteção de Dados (Lei nº 13.709/2018):</p>
       <ul>
-        <li><strong>Exclusão Completa:</strong> Você pode apagar permanentemente todos os registros, veículos e histórico tocando no botão <strong>"Apagar todos os dados"</strong> dentro da tela <em>Meu Perfil</em> do aplicativo.</li>
-        <li><strong>Desinstalação:</strong> Ao desinstalar o Kilovia do seu smartphone, todos os dados salvos localmente são imediatamente destruídos pelo próprio sistema operacional Android.</li>
+        <li><strong>Exclusão Completa:</strong> Você pode apagar permanentemente todos os registros, veículos e
+          histórico tocando no botão <strong>"Apagar todos os dados"</strong> dentro da tela <em>Meu Perfil</em> do
+          aplicativo.</li>
+        <li><strong>Desinstalação:</strong> Ao desinstalar o Kilovia do seu smartphone, todos os dados salvos localmente
+          são imediatamente destruídos pelo próprio sistema operacional Android.</li>
       </ul>
 
       <h2>4. Contato</h2>
-      <p>Para qualquer esclarecimento, sugestão ou dúvida sobre privacidade, entre em contato direto com o desenvolvedor responsável:</p>
-      <p><strong>E-mail:</strong> <a href="mailto:lucasgabriel317@gmail.com">lucasgabriel317@gmail.com</a> ou <a href="mailto:suporte@kilovia.com.br">suporte@kilovia.com.br</a></p>
+      <p>Para qualquer esclarecimento, sugestão ou dúvida sobre privacidade, entre em contato direto com o desenvolvedor
+        responsável:</p>
+      <p><strong>E-mail:</strong> <a href="mailto:suporte@kilovia.com.br">suporte@kilovia.com.br</a></p>
     </article>
 
     <!-- TERMOS DE USO -->
@@ -239,28 +292,39 @@
       <div class="meta">Última atualização: 12 de novembro de 2026 • Versão do App: 1.0.0</div>
 
       <h2>1. Aceitação dos Termos</h2>
-      <p>Ao baixar e utilizar o aplicativo <strong>Kilovia</strong>, você concorda com as condições descritas nestes Termos de Uso e com nossa Política de Privacidade. Caso discorde de alguma cláusula, recomendamos descontinuar o uso do app.</p>
+      <p>Ao baixar e utilizar o aplicativo <strong>Kilovia</strong>, você concorda com as condições descritas nestes
+        Termos de Uso e com nossa Política de Privacidade. Caso discorde de alguma cláusula, recomendamos descontinuar o
+        uso do app.</p>
 
       <h2>2. Natureza Informativa e Estimativa de Cálculos</h2>
-      <p>O Kilovia oferece recursos para auxiliar motoristas a registrarem abastecimentos e gerenciarem gastos e lucros:</p>
+      <p>O Kilovia oferece recursos para auxiliar motoristas a registrarem abastecimentos e gerenciarem gastos e lucros:
+      </p>
       <ul>
-        <li>Os cálculos de consumo médio (km/l), custo por quilômetro e lucratividade líquida são estimativas matemáticas baseadas unicamente nos números preenchidos pelo usuário.</li>
-        <li>O aplicativo não substitui diagnósticos mecânicos profissionais, odômetros oficiais aferidos nem assessoria fiscal/contábil.</li>
+        <li>Os cálculos de consumo médio (km/l), custo por quilômetro e lucratividade líquida são estimativas
+          matemáticas baseadas unicamente nos números preenchidos pelo usuário.</li>
+        <li>O aplicativo não substitui diagnósticos mecânicos profissionais, odômetros oficiais aferidos nem assessoria
+          fiscal/contábil.</li>
       </ul>
 
       <h2>3. Responsabilidade pelo Aparelho e Backup</h2>
-      <p>Por se tratar de um aplicativo de funcionamento local na versão 1.0.0 (sem sincronização em nuvem ativa), a preservação dos dados depende do seu dispositivo. Formatações de fábrica, perda ou quebra do aparelho resultarão na perda dos dados locais não exportados.</p>
+      <p>Por se tratar de um aplicativo de funcionamento local na versão 1.0.0 (sem sincronização em nuvem ativa), a
+        preservação dos dados depende do seu dispositivo. Formatações de fábrica, perda ou quebra do aparelho resultarão
+        na perda dos dados locais não exportados.</p>
 
       <h2>4. Segurança no Trânsito</h2>
       <div class="card-highlight">
-        <strong>Atenção Vital:</strong> Nunca utilize, digite ou configure o aplicativo enquanto estiver dirigindo. Faça todos os apontamentos antes de iniciar o trajeto ou com o veículo parado e em segurança.
+        <strong>Atenção Vital:</strong> Nunca utilize, digite ou configure o aplicativo enquanto estiver dirigindo. Faça
+        todos os apontamentos antes de iniciar o trajeto ou com o veículo parado e em segurança.
       </div>
 
       <h2>5. Propriedade Intelectual</h2>
-      <p>A marca Kilovia, o mascote oficial "Odo", as ilustrações, o código-fonte e o design da interface são de propriedade intelectual exclusiva do desenvolvedor Lucas Silva, protegidos pelas leis de direitos autorais e propriedade industrial.</p>
+      <p>A marca Kilovia, o mascote oficial "Odo", as ilustrações, o código-fonte e o design da interface são de
+        propriedade intelectual exclusiva do desenvolvedor Lucas Silva, protegidos pelas leis de direitos autorais e
+        propriedade industrial.</p>
 
       <h2>6. Contato de Suporte</h2>
-      <p>Dúvidas sobre estes Termos de Uso podem ser enviadas para: <a href="mailto:lucasgabriel317@gmail.com">lucasgabriel317@gmail.com</a>.</p>
+      <p>Dúvidas sobre estes Termos de Uso podem ser enviadas para: <a
+          href="mailto:suporte@kilovia.com.br">suporte@kilovia.com.br</a>.</p>
     </article>
   </main>
 
@@ -282,5 +346,5 @@
     }
   </script>
 </body>
-</html>
 
+</html>
